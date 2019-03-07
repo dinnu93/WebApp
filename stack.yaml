@@ -37,7 +37,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # using the same syntax as the packages field.
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps: ["heroku-0.1.2.3@sha256:8a5f7b9a0a60178a6edb1e5e8cbcdb8d5ffb407939bc30deb8ae7d05e879e9a7"]
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

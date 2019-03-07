@@ -10,3 +10,22 @@ executable          WebApp
     extensions:     OverloadedStrings
     build-depends:  base   >= 4      && < 5
                   , scotty
+                  , wai
+                  , warp
+                  , http-types
+                  , resourcet
+                  , text
+                  , bytestring
+                  , blaze-html
+                  , persistent
+                  , persistent-template
+                  , persistent-sqlite
+                  , persistent-postgresql
+                  , monad-logger
+                  , heroku 
+                  , transformers
+                  , wai-middleware-static
+                  , wai-extra
+                  , time
+                  
+                  
